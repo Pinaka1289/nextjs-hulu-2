@@ -12,9 +12,6 @@ export default {
   fetchActionMovies: {
     title: "Action",
     url: `discover/movie?api_key=${API_KEY}&with_genres=28`,
-
-    // https://api.themoviedb.org/3/movie/popular?api_key=8ef6337f83dfe41af2d5de73d23d7a61&language=en-US&page=1
-    // https://api.themoviedb.org/3/discover/movie?api_key=8ef6337f83dfe41af2d5de73d23d7a61&with_genres=28
   },
   fetchComedyMovies: {
     title: "Comedy",
